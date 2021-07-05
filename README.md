@@ -18,6 +18,7 @@ pip install -r backend/requirements.txt
 
 ```
 cd backend
+python manage.py migrate
 python manage.py runserver
 ```
 
@@ -26,6 +27,7 @@ python manage.py runserver
 - Install project dependencies and run react application:
 
 ```
+cd frontend
 npm install
 npm start
 ```
